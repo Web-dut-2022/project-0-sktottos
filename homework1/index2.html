@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+    </head>
+    <style> 
+        .divcss1{text-align:center;margin-top: 30px; } 
+        .divcss2{text-align:center;margin-top: 10px; } 
+        .divcss3{text-align:right;margin-top: 50px; margin-right: 200px;} 
+        .divcss4{text-align:right;margin-top: 40px; margin-right: 400px;}
+        .divcss5{text-align: right;margin-top: 50px;margin-right: 400px;}
+    </style> 
+    <body>
+        <div class="divcss5"><a href="index.html">
+            <button style="border-radius: 10px">Baidu search</button>
+        </a>
+        <a href="index1.html">
+            <button style="border-radius: 10px;">Image search</button>
+        </a>
+    </div>
+        <div class="divcss1"><img src="baidu.png" width="300px" /></div>
+       
+        <div class="divcss2"><form action="https://www.baidu.com/s" method="GET" target="_blank" >
+            包含全部关键词:<input type="text" name="q1"
+            style="height: 35px;width: 600px;padding-left:10px;border-radius: 10px;outline: none;border-color: RGB(196,199,206)"/>
+            包含完整关键词:<input type="text" name="q2"
+            style="height: 35px;width: 600px;padding-left:10px;border-radius: 10px;outline: none;border-color: RGB(196,199,206)"/></div>
+            <div class="divcss2">
+            包含任意关键词:<input type="text" name="q3"
+            style="height: 35px;width: 600px;padding-left:10px;border-radius: 10px;outline: none;border-color: RGB(196,199,206)"/>
+            不包括关键词:<input type="text" name="q4"
+            style="height: 35px;width: 600px;padding-left:10px;border-radius: 10px;outline: none;border-color: RGB(196,199,206)"/>
+            <input type="hidden" name="tn" value="baiduadv" /></div>>
+            <div class="divcss3"><input type="submit" value="baidu advanced Search"
+            style="width:150px;height:35px;background-color: #4E6EF2;border: none;color: white;border-radius: 10px"/></div>
+        </form>
+        <div class="divcss4"><a href="https://www.google.com/doodles" target="_blank">
+            <button style="border-radius: 10px">I’m Feeling Lucky</button>
+        </a></div>
+    </body>
+</html>
